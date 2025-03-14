@@ -1,10 +1,4 @@
 # Wechat-bot 馈人玫瑰之手，历久犹有余香
-<a href="https://github.com/cixingguangming55555/wechat-bot">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=cixingguangming55555&repo=wechat-bot" />
-</a>
-<a href="https://github.com/cixingguangming55555/wechat-bot">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cixingguangming55555&layout=compact" />
-</a>
 
 <p align="center">
   <img src="https://i.loli.net/2020/05/09/HXClIf5A2EpUG4u.png" width="120">
@@ -19,9 +13,7 @@
   </a>
 </p>
 
-# 微信版本：3.9.2.23
-
-# 新坑QQ群: 712370539
+# 微信版本：[3.9.2.23](https://github.com/tom-snow/wechat-windows-versions/releases/download/v3.9.2.23/WeChatSetup-3.9.2.23.exe)
 
 # 如何使用
 
@@ -86,9 +78,5 @@ async function send_txt_msg()
 * 所有遇到的异常，都是因为json构造错误造成
 * 切记，json里面,是7个配对的key和value，差1个都不行
 
-## 多开请去此大佬处
-https://github.com/crazyn2?tab=repositories
-
-### 参考项目
-* https://github.com/ChisBread/wechat-service
-* 记得为这位大佬加星
+## 原项目（需要找作者加白名单才能使用）：
+https://github.com/cixingguangming55555/wechat-bot
