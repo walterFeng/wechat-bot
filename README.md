@@ -13,13 +13,14 @@
   </a>
 </p>
 
-# 微信版本：[3.9.2.23](https://github.com/tom-snow/wechat-windows-versions/releases/download/v3.9.2.23/WeChatSetup-3.9.2.23.exe)
+# vx版本：[3.9.2.23](https://github.com/tom-snow/wechat-windows-versions/releases/download/v3.9.2.23/WeChatSetup-3.9.2.23.exe)
 
 # 如何使用
+无须加白名单，安装[v3.9.2.23版本的vx](https://github.com/tom-snow/wechat-windows-versions/releases/download/v3.9.2.23/WeChatSetup-3.9.2.23.exe)，双级启动funtool.exe即可调用示例中的api发送消息。
 
 ## 服务器端
 ```
-第一步 启动PC微信并登陆完成，微信的版本必须是：3.9.2.23
+第一步 启动PC端vx并登陆完成，vx的版本必须是：[3.9.2.23](https://github.com/tom-snow/wechat-windows-versions/releases/download/v3.9.2.23/WeChatSetup-3.9.2.23.exe)
 
 第二步 启动非注入版，funtool.exe
 
