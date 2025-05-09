@@ -123,15 +123,16 @@ class PushMainServer:
         self.stopFlag = False
 
     def run(self, ):
-        schedule.every().day.at(self.morningPageTime).do(self.pushMorningPage)
-        schedule.every().day.at(self.fishTime).do(self.pushFish)
-        schedule.every().thursday.at(self.kfcTime).do(self.pushKfc)
-        schedule.every().day.at(self.eveningPageTime).do(self.pushEveningPage)
-        schedule.every().day.at(self.offWorkTime).do(self.pushOffWork)
-        schedule.every().day.at('00:00').do(self.clearSign)
-        schedule.every().day.at('03:00').do(self.clearCacheFile)
-        schedule.every().weeks.monday.at("00:00").do(self.clearRoomTableData)
-        op(f'[+]: 已开启定时推送服务！！！')
-        while self.stopFlag:
-            schedule.run_pending()
+        print("stop push.")
+        # schedule.every().day.at(self.morningPageTime).do(self.pushMorningPage)
+        # schedule.every().day.at(self.fishTime).do(self.pushFish)
+        # schedule.every().thursday.at(self.kfcTime).do(self.pushKfc)
+        # schedule.every().day.at(self.eveningPageTime).do(self.pushEveningPage)
+        # schedule.every().day.at(self.offWorkTime).do(self.pushOffWork)
+        # schedule.every().day.at('00:00').do(self.clearSign)
+        # schedule.every().day.at('03:00').do(self.clearCacheFile)
+        # schedule.every().weeks.monday.at("00:00").do(self.clearRoomTableData)
+        # op(f'[+]: 已开启定时推送服务！！！')
+        # while self.stopFlag:
+        #     schedule.run_pending()
 
