@@ -36,8 +36,21 @@ python窗口：
 初始化成功，获取到已登录窗口：xxx
 ```
 
+## 启动http服务
+```shell
+pip install -r requirements.txt
+python main.py
 
-## 示例
+## 给好友发送消息
+curl 'https://127.0.0.1:8057/send_message' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: zh-CN,zh;q=0.9' \
+  -H 'content-type: application/json' \
+  --data-raw '{"who":"文件传输助手","msg":"hello"}'
+```
+
+
+## 进阶开发示例
 > [!NOTE]
 > 如有问题请先查看[使用文档](https://docs.wxauto.org)
 
@@ -88,3 +101,4 @@ msgs = wx.GetAllMessage(savepic=True)   # 获取聊天记录，及自动下载�
 
 
 
+# wechat-bot

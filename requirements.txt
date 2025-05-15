@@ -3,3 +3,5 @@ Pillow
 pywin32
 psutil
 pyperclip
+flask
+flask_cors
